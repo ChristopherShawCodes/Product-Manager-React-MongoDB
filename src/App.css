@@ -1,38 +1,144 @@
-.App {
+.App{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#container{
+  margin-top: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+label{
+  margin: 10px;
+  text-align: left;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#input{
+  margin-left: 3rem;
+}
+
+button{
+  margin-top: 1rem;
+}
+
+#displayAllCard{
+  margin: 0 auto;
+  width: 24rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  box-shadow: 1px 1px 2px 2px gray;
+}
+
+
+.card-title{
+  width: 200px;
+  font-size: 24px;
+  opacity: 120%;
+  color: gray;
+  text-transform: capitalize;
+  margin-top: 2%;
+  margin-left: 13%;
+}
+
+.card-body{
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+}
+
+
+#oneCard{
+  margin-top: 5rem;
+  margin: 20px;
+  width: 300px;
+  box-shadow: 4px 4px 8px 2px gray;
+}
+
+#allLink{
+  margin-top: 5rem;
+  color: blue;
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+  width: 100px;
+  height: 200px;
+  margin-left: 3%;
+  border-radius: 13px;
+  box-shadow: 4px 4px 8px 2px gray;
+}
+
+#link{
+  font-size: 15px;
+  margin-top: 1rem;
+  border-bottom: 1px solid black;
+  padding: 4px;
+  margin-right: 1px;
+  border-radius: 16%;
+  border-right: 0.4px solid gray;
+  box-shadow: 5px 3px 4px 1px gray;
+}
+
+
+#allLinkAdd:hover{
+  box-shadow: 5px 3px 4px 1px gray;
+  background-color: transparent;
+}
+
+
+
+#link:hover{
+  border-radius: 17%;
+  border-left: 0.4px solid gray;
+  border-right: 0.4px solid gray;
+  box-shadow: 2px 2px 1px 3px gray;
+  opacity: 80%;
+}
+
+#singleTitle{
+  margin-top: 2rem;
+  margin-left: 4rem;
+}
+
+#form{
+  width: 24rem;
+  margin: 0 auto;
+  margin-top: 5rem;
+  width: 24rem;
+  box-shadow: 4px 4px 8px 2px gray;
+}
+
+
+#moreLink{
+  color: blue;
+  margin-left: 28%;
+}
+
+
+#oneImage{
+  width: 200px;
+  height: 150px;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  object-fit: cover;
+  box-shadow: 1px 2px 2px 2px gray;
+}
+
+#delete{
+    color:red;
+    margin-left: 32%;
+    border: none;
+    margin-bottom: 5px;
+    background-color: transparent;
+}
+
+#edit{
+  color: purple;
+}
+
+#edit:hover{
+  opacity: 150%;;
+
+}
+
+#allContainer{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  flex-wrap: wrap;
+  overflow-wrap: normal;
+  margin: 10px;
 }
